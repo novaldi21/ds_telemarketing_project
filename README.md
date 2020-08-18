@@ -1,10 +1,11 @@
 # Bank Telemarketing Prediction: Project Overview 
-* Created a tool that classifies bank customers to be given telemarketing campaign
+* Created a tool that classifies bank customers to be given telemarketing campaign.
 * Data used was Bank Marketing Dataset from UCI Machine Learning Repository consisted with 17 attributes and 45211 records.
 * Target attribute is customer acquirement status after telemarketing was given.
-* Model building algorithm used are K-Neirest Neighbour, Naive Bayes, Decision Tree, Logit, and Random forest.
-* SMOTE oversampling used to handle imbalanced data
-* Seaborn heatmap used to handle multicollinearity
+* Model building algorithm used were Decision Tree, K-Neirest Neighbour, Logit, Random forest, and Naive Bayes.
+* Model evaluated by looking at precision, recall, accuracy, and F1-score. 
+* SMOTE oversampling used to handle imbalanced data.
+* Seaborn heatmap used to handle multicollinearity.
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
@@ -39,13 +40,16 @@ First, I did a checking of missing values for each attributes and there are larg
 
 ## Model Building 
 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 30%.   
+First, I split the data into train and tests sets with a test size of 20%.   
 
-I tried Decision Tree classifier with entropy approach and maximum three dept of 3. I also evaluated them using accuracy rate. I chose decision tree classifier because my goal was to build a simple model that is easy to visualize.
+I did a model building by using train and test data with these algorithm: Decision Tree, K-Neirest Neighbour, Logit, Random forest, and Naive Bayes.
+
+I also did a validation by using cross-validation method. Finally, model performances are checked to decide which algorithm was the best.
 
 ## Model performance
-The Decision Tree model performance is presented. 
+The model performances are presented. 
 *	**Decision Tree** : Accuracy = 0.57
-
-
-
+*	**K-Nearest Neighbour** : Accuracy = 0.57
+*	**Logit** : Accuracy = 0.57
+*	**Random Forest** : Accuracy = 0.57
+*	**Naive Bayes** : Accuracy = 0.57
