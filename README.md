@@ -56,7 +56,7 @@ The model performances are presented.
 *	**Logit** : Precision = 0.80; Recall = 0.81; Accuracy = 0.80; F1-Score = 0.80
 *	**Random Forest** : Precision = 0.95; Recall = 0.94; Accuracy = 0.95; F1-Score = 0.95
 *	**Naive Bayes** : Precision = 0.83; Recall = 0.63; Accuracy = 0.75; F1-Score = 0.71
-Based on the model performances, the best algorithm to be used was **K-Nearest Neighbour**
+<br />Based on the model performances, the best algorithm to be used was **K-Nearest Neighbour**
 
 ## Model Evaluation
 I did model evaluation by doing cross-validation between train and test data. The results shown that the range for accuracy differences between validation was **+/-0.01**
