@@ -33,7 +33,7 @@ Attributes to classify customers to be given telemarketing are following:
 <br />The data can be seen [here](https://github.com/novaldi21/ds_telemarketing_project/blob/master/bank-full.csv)
 
 ## Data Pre-Processing
-First, I did a checking of missing values for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
+First, I did a missing values check for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
 <br />Secondly, I built a correlation heatmap for numerical attributes to check multicollinearity status in the data. Then, it can be seen that multicollinearity was not present. The figure for the heatmap is can be seen below. 
 <br />![](https://github.com/novaldi21/ds_telemarketing_project/blob/master/heatmap.png)
 <br />Thirdly, I compare the ammount of "yes" and "no" data in target outcome and there were imbalanced data condition because the ammount of "yes" data was 5289 and "no" data was 39922. Therefore SMOTE oversampling method was used to balance the ammount of them.
