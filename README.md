@@ -1,6 +1,7 @@
 # Bank Telemarketing Prediction: Project Overview 
 * Created a tool that classifies bank customers to be given telemarketing campaign
 * Data used was Bank Marketing Dataset from UCI Machine Learning Repository consisted with 17 attributes and 45211 records.
+* Target attribute is customer acquirement status after telemarketing was given.
 * Model building algorithm used are K-Neirest Neighbour, Naive Bayes, Decision Tree, Logit, and Random forest.
 * SMOTE oversampling used to handle imbalanced data
 * Seaborn heatmap used to handle multicollinearity
@@ -27,7 +28,14 @@ Attributes to classify customers to be given telemarketing are following:
 *	Days of contact before the last contact
 * Ammount of contact in previous campaign
 * Campaign outcome
-* Target outcome
+* Target outcome (Customer Acquired)
+
+## Data Pre-Processing
+First, I did a checking of missing values for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
+</b>Secondly, I built a correlation heatmap to check availability of multicollinearity in the data. Then, it can be seen that multicollinearity was not present. The figure for the heatmap can be seen below. 
+[]
+</b>Thirdly, I compare the ammount of "yes" and "no" data in target outcome and there were imbalanced data condition because the ammount of "yes" data was 5289 and "no" data was 39922. Therefore SMOTE oversampling method was used to balance the ammount of them.
+</b>Finally, I did categorical encoding for categorical data before model building. I also standardized the numerical data.
 
 ## Model Building 
 
