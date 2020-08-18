@@ -32,10 +32,10 @@ Attributes to classify customers to be given telemarketing are following:
 
 ## Data Pre-Processing
 First, I did a checking of missing values for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
-</b>Secondly, I built a correlation heatmap to check availability of multicollinearity in the data. Then, it can be seen that multicollinearity was not present. The figure for the heatmap can be seen below. 
+<br />Secondly, I built a correlation heatmap to check availability of multicollinearity in the data. Then, it can be seen that multicollinearity was not present. The figure for the heatmap can be seen below. 
 []
-</b>Thirdly, I compare the ammount of "yes" and "no" data in target outcome and there were imbalanced data condition because the ammount of "yes" data was 5289 and "no" data was 39922. Therefore SMOTE oversampling method was used to balance the ammount of them.
-</b>Finally, I did categorical encoding for categorical data before model building. I also standardized the numerical data.
+<br />Thirdly, I compare the ammount of "yes" and "no" data in target outcome and there were imbalanced data condition because the ammount of "yes" data was 5289 and "no" data was 39922. Therefore SMOTE oversampling method was used to balance the ammount of them.
+<br />Finally, I did categorical encoding for categorical data before model building. I also standardized the numerical data.
 
 ## Model Building 
 
@@ -46,10 +46,6 @@ I tried Decision Tree classifier with entropy approach and maximum three dept of
 ## Model performance
 The Decision Tree model performance is presented. 
 *	**Decision Tree** : Accuracy = 0.57
-The performance is relatively low because the small sample size and it was imbalanced between the sample size and the ammount of the attributes.
 
-## Decision Tree Visualization
-Decision tree visualization is presented below
-![alt text](https://github.com/novaldi21/ds_attrition_project/blob/master/attrition.png "Decision Tree")
 
-From the picture, it can be seen that employees that are predicted will get attrition are employees with monthly income below $.2057.5 
+
