@@ -30,6 +30,7 @@ Attributes to classify customers to be given telemarketing are following:
 * Ammount of contact in previous campaign
 * Campaign outcome
 * Target outcome (Customer Acquired)
+The data can be seen [here](https://github.com/novaldi21/ds_telemarketing_project/blob/master/bank-full.csv)
 
 ## Data Pre-Processing
 First, I did a checking of missing values for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
