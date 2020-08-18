@@ -1,11 +1,11 @@
-# Bank Telemarketing Prediction: Project Overview 
+# Bank Telemarketing Classification: Project Overview 
 * Created a tool that classifies bank customers to be given telemarketing campaign.
 * Data used was Bank Marketing Dataset from UCI Machine Learning Repository consisted with 17 attributes and 45211 records.
 * Target attribute is customer acquirement status after telemarketing was given.
 * Model building algorithm used were Decision Tree, K-Neirest Neighbour, Logit, Random forest, and Naive Bayes.
-* Model evaluated by looking at precision, recall, accuracy, and F1-score. 
-* SMOTE oversampling used to handle imbalanced data.
-* Seaborn heatmap used to handle multicollinearity.
+* Models were evaluated by looking at their precision, recall, accuracy, and F1-score. 
+* SMOTE oversampling was used to handle imbalanced data.
+* Seaborn heatmap was used to handle multicollinearity.
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
@@ -48,8 +48,9 @@ I also did a validation by using cross-validation method. Finally, model perform
 
 ## Model performance
 The model performances are presented. 
-*	**Decision Tree** : Accuracy = 0.57
-*	**K-Nearest Neighbour** : Accuracy = 0.57
-*	**Logit** : Accuracy = 0.57
-*	**Random Forest** : Accuracy = 0.57
-*	**Naive Bayes** : Accuracy = 0.57
+*	**Decision Tree** : Precision = 0.91; Recall = 0.91; Accuracy = 0.91; F1-Score = 0.91
+*	**K-Nearest Neighbour** : Precision = 0.99; Recall = 0.99; Accuracy = 0.94; F1-Score = 0.94
+*	**Logit** : Precision = 0.80; Recall = 0.81; Accuracy = 0.80; F1-Score = 0.80
+*	**Random Forest** : Precision = 0.95; Recall = 0.94; Accuracy = 0.95; F1-Score = 0.95
+*	**Naive Bayes** : Precision = 0.83; Recall = 0.63; Accuracy = 0.75; F1-Score = 0.71
+Based on the model performances, the best algorithm to be used was **K-Nearest Neighbour**
