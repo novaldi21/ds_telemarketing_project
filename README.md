@@ -1,5 +1,5 @@
 # Bank Telemarketing Classification: Project Overview 
-* Chosing the best algorithm to classifies bank customers to be given telemarketing campaign.
+* Chose the best algorithm to classifies bank customers to be given telemarketing campaign.
 * Data used was Bank Marketing Dataset from UCI Machine Learning Repository consisted with 17 attributes and 45211 records.
 * Target attribute is customer acquirement status after telemarketing was given.
 * Model building algorithm used were Decision Tree, K-Neirest Neighbour, Logit, Random forest, and Naive Bayes.
