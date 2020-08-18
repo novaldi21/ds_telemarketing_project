@@ -33,7 +33,7 @@ Attributes to classify customers to be given telemarketing are following:
 ## Data Pre-Processing
 First, I did a checking of missing values for each attributes and there are large ammount of it in "contact" and "poutcome". Therefore, those attributes are eliminated.
 <br />Secondly, I built a correlation heatmap to check availability of multicollinearity in the data. Then, it can be seen that multicollinearity was not present. The figure for the heatmap can be seen below. 
-![](https://github.com/novaldi21/ds_telemarketing_project/blob/master/heatmap.png)
+<br />![](https://github.com/novaldi21/ds_telemarketing_project/blob/master/heatmap.png)
 <br />Thirdly, I compare the ammount of "yes" and "no" data in target outcome and there were imbalanced data condition because the ammount of "yes" data was 5289 and "no" data was 39922. Therefore SMOTE oversampling method was used to balance the ammount of them.
 <br />Finally, I did categorical encoding for categorical data before model building. I also standardized the numerical data.
 
